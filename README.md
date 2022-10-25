@@ -11,8 +11,8 @@
 <details>
 <summary>Open / Close</summary>
 
-
-> LOGO, HEADER의 SUB-MENU와 SEARCH 동작 작성 
+</br>
+> LOGO, HEADER의 SUB-MENU와 SEARCH 동작 작성 </br>
 
 ![Day 1](https://user-images.githubusercontent.com/95046369/197713638-765fae0d-f88b-4404-ad46-a7497591c746.gif)
 
