@@ -12,6 +12,15 @@ img { display: block; }
 
 a { text-decoration: none; }
 
+.inner {
+    
+    position: relative;
+
+    width: 1100px;
+    margin: 0 auto;
+
+}
+
 /* HEADER */
 header {
 
@@ -20,15 +29,7 @@ header {
 
 }
 
-header .inner {
-    
-    position: relative;
-
-    width: 1100px;
-    height: 120px;
-    margin: 0 auto;
-
-}
+header > .inner { height: 120px; }
 
 header .logo {
 
@@ -147,3 +148,58 @@ header .logo {
 
 }
 .sub-menu .search.focused .material-icons.md-48 {  opacity: 0; }
+
+/* MAIN MENU */
+header .main-menu {
+
+    position: absolute;
+    display: flex;
+
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+
+}
+
+header .main-menu .item .item__name{
+
+    padding: 10px 20px 34px 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+header .main-menu .item:hover .item__name{
+
+    background-color: #2c2a29;
+    color: #669900;
+
+    border-radius: 6px 6px 0 0;
+
+}
+
+header .main-menu .item .item__contents{
+
+    display: none;
+
+    position: fixed;
+    left: 0;
+    
+    width: 100%;
+
+}
+header .main-menu .item:hover .item__contents{
+
+    display: block;    
+
+}
+header .main-menu .item .item__contents .contents__menu{
+
+    height: 200px;
+
+}
+header .main-menu .item .item__contents .contents__texture{
+
+    height: 100px;
+    
+}
