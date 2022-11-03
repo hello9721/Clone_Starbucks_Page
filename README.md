@@ -1,5 +1,5 @@
 
-# Clone Coding 일지
+# Clone Coding 일지 - [STARBUCKS](https://flamboyant-lumiere-482a1e.netlify.app/) 
 
 ### [Let's Go This Repository Page](https://hello9721.github.io/Clone_Starbucks_Page/)
 * * *
